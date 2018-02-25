@@ -1,0 +1,74 @@
+body, html, h2{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ff6b00;
+    color: aliceblue;
+}
+
+.fila{
+    margin: 2% auto;
+    width: 90%;
+    margin: 1em auto;
+    overflow: hidden;
+}
+
+.columna{
+    background: #005db5;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.total .columna{
+    width: 100%;
+}
+
+.dos-columnas .columna{
+    width: 49%;
+}
+.dos-columnas .columna:nth-child(2n){
+    margin-right: 0;
+}
+.tres-columnas .columna{
+    width: 32%;
+}
+.tres-columnas .columna:nth-child(3n){
+    margin-right: 0;
+}
+.cuatro-columnas .columna{
+    width: 23.5%;
+}
+.cuatro-columnas .columna:nth-child(4n){
+    margin-right: 0;
+}
+.seis-columnas .columna{
+    width: 15%;
+}
+.seis-columnas .columna:nth-child(6n){
+    margin-right: 0;
+}
+.doce-columnas .columna{
+    width: 6.5%;
+}
+.doce-columnas .columna:nth-child(12n){
+    margin-right: 0;
+}
+
+.right-sidebar .sidebar,
+.left-sidebar .sidebar{
+    width: 23.5%;
+}
+.right-sidebar .content,
+.left-sidebar .content{
+    width: 74.5%;
+}
+
+.right-sidebar .sidebar,
+.left-sidebar .content{
+    margin-right: 0;
+}
